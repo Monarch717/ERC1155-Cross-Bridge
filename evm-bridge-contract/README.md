@@ -1,5 +1,4 @@
 # avax-evm-compatible-bridge-contr
-This project is part of Binance Smart Chain Hackathon : Build NFT Bridge Between EVM Compatible Chains hackathon .
 
 ### Prepare configuration
 Please refer to example env file

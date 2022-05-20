@@ -1,4 +1,3 @@
-# Public Goods Project Bounty
 # avax-evm-compatible-bridge
 ### Project name
 - EnverLee Bridge
