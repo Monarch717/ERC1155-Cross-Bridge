@@ -1,6 +1,4 @@
-# bsc-evm-compatible-bridge-core
-
-This project is part of Binance Smart Chain Hackathon : Build NFT Bridge Between EVM Compatible Chains hackathon [https://gitcoin.co/issue/binance-chain/grant-projects/2/100026811].
+# avax-evm-compatible-bridge-core
 
 
 ## Build

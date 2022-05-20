@@ -1,5 +1,5 @@
 # Public Goods Project Bounty
-# bsc-evm-compatible-bridge
+# avax-evm-compatible-bridge
 ### Project name
 - EnverLee Bridge
 
