@@ -1,0 +1,9 @@
+version: "3"
+services:
+  bsc-evm-compatible-bridge-core:
+    container_name: bsc-evm-compatible-bridge-core
+    build: .
+    restart: "on-failure"
+    command: ./build/swap-backend --config-type=aws --aws-secret-key=${SECRET_NAME} --aws-region=${SECRET_REGION}
+    env_file:
+      - .env

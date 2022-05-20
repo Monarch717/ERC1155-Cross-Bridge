@@ -1,0 +1,61 @@
+{
+  "key_manager_config": {
+    "key_type": "local_private_key",
+    "aws_region": "",
+    "aws_secret_name": "",
+    "hmac_key": "1234"
+  },
+  "db_config": {
+    "log_level": "WARN",
+    "dsn": "username:password@tcp(localhost:3306)/nft_bridge?charset=utf8mb4&parseTime=True&loc=Local"
+  },
+  "chain_configs": [{
+    "id": "43113",
+    "balance_monitor_interval": 60,
+    "balance_alert_threshold": "1000000000000000000",
+    "name": "Fuji Testnet",
+    "observer_fetch_interval": 1,
+    "start_height": 14914765,
+    "provider": "https://api.avax-test.network/ext/bc/C/rpc",
+    "private_key": "<import your wallet private key>",
+    "confirm_num": 2,
+    "erc_721_swap_agent_addr": "0xDe09E74d4888Bc4e65F589e8c13Bce9F71DdF4c7",
+    "erc_1155_swap_agent_addr": "0xccaf8b5CC00aA664f00f6e5Ee398aCCf6B0d95D8",
+    "explorer_url": "https://testnet.chain1.com/tx",
+    "max_track_retry": 5,
+    "wait_milli_sec_between_tx": 100
+  }, {
+    "id": "97",
+    "balance_monitor_interval": 60,
+    "balance_alert_threshold": "1000000000000000000",
+    "name": "BSC Testnet",
+    "observer_fetch_interval": 1,
+    "start_height": 19446666,
+    "provider": "https://data-seed-prebsc-1-s1.binance.org:8545",
+    "private_key": "<Import your wallet private key>",
+    "confirm_num": 2,
+    "erc_721_swap_agent_addr": "0xDe09E74d4888Bc4e65F589e8c13Bce9F71DdF4c7",
+    "erc_1155_swap_agent_addr": "0x63542e008B27190fCa9C4bFfa17BD01f37D39f34",
+    "explorer_url": "https://testnet.chain2.com/tx",
+    "max_track_retry": 5,
+    "wait_milli_sec_between_tx": 100
+  }],
+  "log_config": {
+    "level": "INFO",
+    "filename": "build/test.log",
+    "max_file_size_in_mb": 100,
+    "max_backups_of_log_files": 1,
+    "max_age_to_retain_log_files_in_days": 30,
+    "use_console_logger": true,
+    "use_file_logger": false,
+    "compress": false
+  },
+  "alert_config": {
+    "telegram_bot_id": "",
+    "telegram_chat_id": "",
+    "block_update_timeout": 10
+  },
+  "admin_config": {
+    "listen_addr": ":8000"
+  }
+}
